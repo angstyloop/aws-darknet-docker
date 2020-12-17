@@ -22,7 +22,7 @@ COPY scripts/* ./
 
 ENV NETWORK_FILENAME network.cfg
 ENV DATA_FILENAME config.data
-ENV PRETRAINED_WEIGHTS_FILENAME ""
-ENV S3_BUCKET_NAME ""
+ENV PRETRAINED_WEIGHTS_FILENAME yolov4.conv.137
+ENV S3_BUCKET_NAME sean-christian-allen-ii-darknet-bucket
 
 CMD ["./train.sh"]

@@ -1,5 +1,5 @@
-classes = 80
+classes = 1
 train  = data/train.txt
 valid  = data/test.txt
-names = class.names
-backup = backup
+names = data/class.names
+backup = backup/
